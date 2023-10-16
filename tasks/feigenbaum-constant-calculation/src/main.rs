@@ -1,4 +1,4 @@
-fn main() {
+fn feigenbaum() -> f64 {
     const MAX_IT: u32 = 14;
     const MAX_IT_J: u32 = 11;
     let (mut a1, mut a2, mut d1) = (1.0, 0.0, 3.2);
@@ -19,4 +19,10 @@ fn main() {
         a1 = a;
         println!("{i:>2}    {d1}");
     }
+
+    d1
+}
+
+fn main() {
+    feigenbaum();
 }
