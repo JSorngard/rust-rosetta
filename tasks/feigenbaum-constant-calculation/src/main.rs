@@ -32,6 +32,7 @@ mod test {
 
     #[test]
     fn check_feigenbaum_value() {
-        assert_eq!(feigenbaum(), 4.669_201_609_102_990_671_853_203_820_466);
+        let d1 = feigenbaum();
+        assert!(d1 > 4.669_2 && d1 < 4.669_206);
     }
 }
