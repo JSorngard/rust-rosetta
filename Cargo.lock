@@ -1954,6 +1954,10 @@ name = "fasta-format"
 version = "0.1.0"
 
 [[package]]
+name = "feigenbaum-constant-calculation"
+version = "0.1.0"
+
+[[package]]
 name = "fib_seq-iter_successors"
 version = "0.1.0"
 

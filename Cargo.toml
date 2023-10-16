@@ -597,6 +597,9 @@ members = [
     # http://rosettacode.org/wiki/FASTA_format
     "tasks/fasta-format",
 
+    # https://www.rosettacode.org/wiki/Feigenbaum_constant_calculation
+    "tasks/feigenbaum-constant-calculation",
+
     # http://rosettacode.org/wiki/Fibonacci_n-step_number_sequences
     "tasks/fibonacci-n-step-number-sequences",
 
