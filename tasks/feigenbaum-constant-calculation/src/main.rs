@@ -14,10 +14,9 @@ fn main() {
             }
             a -= x / y;
         }
-        let d = (a1 - a2) / (a - a1);
-        println!("{i:>2}    {d}");
-        d1 = d;
+        d1 = (a1 - a2) / (a - a1);
         a2 = a1;
         a1 = a;
+        println!("{i:>2}    {d1}");
     }
 }
